@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single Page Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="top-section">
@@ -50,16 +49,15 @@
             </p>
             <a href="#contact" class="contact-link">Contact Me</a>
           </div>
-          <img
-            src="./assets/images/image-profile-desktop.webp"
-            srcset="
-            ./assets/images/image-profile-mobile.webp 400w,
-            ./assets/images/image-profile-tablet.webp 800w,
-            ./assets/images/image-profile-desktop.webp 1200w
-            "
+          <picture>
+            <source media="(min-width: 1024px)" srcset="./assets/images/image-profile-desktop.webp">
+            <source media="(min-width: 768px)" srcset="./assets/images/image-profile-tablet.webp">
+            <source media="(min-width: 300px)" srcset="./assets/images/image-profile-mobile.webp">
+            <img src="./assets/images/image-profile-desktop.webp"
             alt="adam keys smiling"
             class="profile-picture"
           />
+          </picture>
         </section>
         <section class="skills">
           <div class="skill">
@@ -95,14 +93,11 @@
           <div class="projects-grid">
             <div class="project">
               <div class="project-image">
-                <img
-                  src="./assets/images/thumbnail-project-1-large.webp"
-                  alt=""
-                  srcset="
-                  ./assets/images/thumbnail-project-1-small.webp 800w,
-                  ./assets/images/thumbnail-project-1-large.webp 1080w,
-                  "
-                />
+                <picture>
+                  <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-1-large.webp">
+                  <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-1-small.webp">                                   
+                  <img src="./assets/images/thumbnail-project-1-large.webp" alt=""/>
+                </picture>
                 <div class="project-description">
                   <h3>Design Portfolio</h3>
                   <span>HTML</span>
@@ -113,14 +108,11 @@
             </div>         
               <div class="project">
                 <div class="project-image">
-                  <img
-                    src="./assets/images/thumbnail-project-2-small.webp"
-                    alt=""
-                    srcset="
-                  ./assets/images/thumbnail-project-2-small.webp 800w,
-                  ./assets/images/thumbnail-project-2-large.webp 1080w,
-                  "
-                  />
+                  <picture>
+                    <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-2-large.webp">
+                    <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-2-small.webp">                                   
+                    <img src="./assets/images/thumbnail-project-2-large.webp" alt=""/>
+                  </picture>
                   <div class="project-description">
                     <h3>E-Learning Landing Page</h3>
                     <span>HTML</span>
@@ -130,14 +122,11 @@
               </div>  
               <div class="project">
                 <div class="project-image">
-                  <img
-                    src="./assets/images/thumbnail-project-3-small.webp"
-                    alt=""
-                    srcset="
-                  ./assets/images/thumbnail-project-3-small.webp 800w,
-                  ./assets/images/thumbnail-project-3-large.webp 1080w,
-                  "
-                  />
+                  <picture>
+                    <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-3-large.webp">
+                    <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-3-small.webp">                                   
+                    <img src="./assets/images/thumbnail-project-3-large.webp" alt=""/>
+                  </picture>
                   <div class="project-description">
                     <h3>Todo Web App</h3>
                     <span>HTML</span>
@@ -148,14 +137,11 @@
               </div>  
               <div class="project">
                 <div class="project-image">
-                  <img
-                    src="./assets/images/thumbnail-project-4-small.webp"
-                    alt=""
-                    srcset="
-                  ./assets/images/thumbnail-project-4-small.webp 800w,
-                  ./assets/images/thumbnail-project-4-large.webp 1080w,
-                  "
-                  />
+                  <picture>
+                    <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-4-large.webp">
+                    <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-4-small.webp">                                   
+                    <img src="./assets/images/thumbnail-project-4-large.webp" alt=""/>
+                  </picture>
                   <div class="project-description">
                     <h3>Entertainment Web App</h3>
                     <span>HTML</span>
@@ -166,14 +152,11 @@
               </div>  
               <div class="project">
                 <div class="project-image">
-                  <img
-                    src="./assets/images/thumbnail-project-5-small.webp"
-                    alt=""
-                    srcset="
-                  ./assets/images/thumbnail-project-5-small.webp 800w,
-                  ./assets/images/thumbnail-project-5-large.webp 1080w,
-                  "
-                  />
+                  <picture>
+                    <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-5-large.webp">
+                    <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-5-small.webp">                                   
+                    <img src="./assets/images/thumbnail-project-5-large.webp" alt=""/>
+                  </picture>
                   <div class="project-description">
                     <h3>Memory Game</h3>
                     <span>HTML</span>
@@ -184,14 +167,11 @@
               </div>  
               <div class="project">
                 <div class="project-image">
-                  <img
-                    src="./assets/images/thumbnail-project-6-small.webp"
-                    alt=""
-                    srcset="
-                  ./assets/images/thumbnail-project-6-small.webp 800w,
-                  ./assets/images/thumbnail-project-6-large.webp 1080w,
-                  "
-                  />
+                  <picture>
+                    <source media="(min-width: 1024px)" srcset="./assets/images/thumbnail-project-6-large.webp">
+                    <source media="(min-width: 300px)" srcset="./assets/images/thumbnail-project-6-small.webp">                                   
+                    <img src="./assets/images/thumbnail-project-6-large.webp" alt=""/>
+                  </picture>
                   <div class="project-description">
                     <h3>Art Gallery Showcase</h3>
                     <span>HTML</span>

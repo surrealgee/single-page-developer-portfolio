@@ -110,4 +110,55 @@ h1 span {
 
 .skills {
   margin: 5em 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 2.5em 1em;
+  display: grid;
+  gap: 1.5em;
+}
+
+.skills p {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.skills span {
+  color: #d9d9d9;
+}
+
+.projects {
+  padding-block-end: 5em;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+}
+
+.projects-header .contact-link {
+  margin: 0;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2.5em;
+}
+
+.project-description {
+  text-align: start;
+  margin-block-start: 1.25em;
+}
+
+.project-description h3 {
+  text-transform: uppercase;
+  margin-block-end: 0.5em;
+}
+
+.project-description span {
+  text-transform: uppercase;
+  margin-inline-end: 1em;
+  color: #d9d9d9;
 }

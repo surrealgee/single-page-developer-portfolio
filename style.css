@@ -175,6 +175,18 @@ h1 span {
   color: #d9d9d9;
 }
 
+.project-controls {
+  display: flex;
+  justify-content: start;
+  gap: 2em;
+  margin-block-start: 1.25em;
+}
+
+.project-controls .contact-link {
+  margin: 0;
+  cursor: pointer;
+}
+
 .bottom-section {
   background-color: #242424;
   padding: 3.75em 0;
